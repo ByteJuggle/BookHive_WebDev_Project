@@ -1,0 +1,100 @@
+[
+    {
+        "id" : 1,
+        "name" : "Story Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 0,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Comedy Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 0,
+        "category" : "Fun",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 3,
+        "name" : "Music Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 0,
+        "category" : "Song",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 4,
+        "name" : "Mythology Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 0,
+        "category" : "Spiritual",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 5,
+        "name" : "Fancy Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 200,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 6,
+        "name" : "Colour Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 400,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 7,
+        "name" : "Story Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 500,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 8,
+        "name" : "Food Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 300,
+        "category" : "Food",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 9,
+        "name" : "Story Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 100,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 10,
+        "name" : "Story Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 50,
+        "category" : "Free",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+
+    {
+        "id" : 11,
+        "name" : "Scary Book",
+        "title" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price" : 200,
+        "category" : "Horror",
+        "image" : "https://img.freepik.com/free-psd/antique-books-modern-laptop-blending-tradition-technology_632498-25107.jpg?t=st=1742133549~exp=1742137149~hmac=8bfbcaa57c6ff2e4b0f3c022fa75f000441faa6651c0c8c63f20a5433f7475df&w=826"
+    },
+]
