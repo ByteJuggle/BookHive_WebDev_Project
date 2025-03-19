@@ -98,7 +98,7 @@ function Navbar() {
               <ul className="menu menu-horizontal px-1">{navItems}</ul>
             </div>
             <div className="hidden md:block">
-              <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
+              <label className=" px-2 py-2 border border-color:#e5e7eb69 rounded-md flex items-center gap-2">
                 <input
                   type="text"
                   className="grow outline-none rounded-md px-1 dark:bg-slate-900 dark:text-white"

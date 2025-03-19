@@ -16,12 +16,16 @@ function Login() {
       password: data.password,
     };
     await axios
-      .post("http://localhost:4001/user/login", userInfo)
+      .post("http://localhost:4001/api/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
-        if (res.data) {
+        if (res.data && res.data.user) {
+
           toast.success("Login Successfully");
+          localStorage.setItem("Users", JSON.stringify(res.data.user));
+
           document.getElementById("my_modal_3").close();
+
           setTimeout(() => {
             window.location.reload();
             localStorage.setItem("Users", JSON.stringify(res.data.user));
@@ -31,16 +35,19 @@ function Login() {
       .catch((err) => {
         if (err.response) {
           console.log(err);
-          toast.error("Error: " + err.response.data.message);
+          toast.error("Error: " + (err.response.data.message || "Login failed. Please try again."));
+
           setTimeout(() => {}, 2000);
         }
       });
+            
   };
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
+          
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
@@ -51,6 +58,7 @@ function Login() {
             </Link>
 
             <h3 className="font-bold text-lg">Login</h3>
+            
             {/* Email */}
             <div className="mt-4 space-y-2">
               <span>Email</span>
@@ -91,7 +99,7 @@ function Login() {
               <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
                 Login
               </button>
-              <p>
+              <div>
                 Not registered?{" "}
                 <Link
                   to="/signup"
@@ -99,7 +107,7 @@ function Login() {
                 >
                   Signup
                 </Link>{" "}
-              </p>
+              </div>
             </div>
           </form>
         </div>
