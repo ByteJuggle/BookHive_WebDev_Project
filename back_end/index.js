@@ -6,7 +6,10 @@ import cors from "cors";
 import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
+dotenv.config();
+
 const app = express();
+
 
 app.use(cors());
 app.use(express.json());
@@ -14,7 +17,13 @@ app.use(express.json());
 dotenv.config();
 
 const PORT = process.env.PORT || 4000;
+
 const URI = process.env.MongoDBURI;
+console.log('MongoDBURI:', URI);
+console.log('All Environment Variables:', process.env);
+
+
+
 
 // connect to mongoDB
 try {
